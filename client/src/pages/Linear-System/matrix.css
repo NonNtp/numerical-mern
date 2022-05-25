@@ -1,0 +1,118 @@
+body {
+	box-sizing: border-box;
+}
+.flex-app {
+	display: flex;
+	justify-content: space-between;
+}
+
+.app {
+	width: 90%;
+	max-width: 35rem;
+	padding: 1rem;
+	border-radius: 12px;
+	background-color: white;
+	margin: 3rem auto;
+}
+.itemA {
+	width: 70px;
+	height: 50px;
+	padding: 20px;
+	margin: 20px;
+	font-size: 1.5rem;
+}
+.A-value {
+	margin-left: 50px;
+}
+
+.X-value {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 200px;
+}
+.itemX {
+	width: 70px;
+	height: 50px;
+	padding: 20px;
+	margin: 20px;
+	font-size: 1.5rem;
+}
+
+.B-value {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 200px;
+}
+.itemB {
+	width: 70px;
+	height: 50px;
+	padding: 20px;
+	margin: 20px;
+	font-size: 1.5rem;
+}
+
+.app-table {
+	width: 100%;
+	max-width: 70rem;
+	padding: 1rem;
+	border-radius: 12px;
+	background-color: white;
+	margin: 3rem auto;
+}
+.h1 {
+	font-size: 2.5rem;
+	text-align: center;
+	color: #fff;
+}
+
+.p {
+	font-size: 1.25rem;
+	letter-spacing: 10px;
+	padding-left: 20px;
+	text-align: center;
+	align-items: center;
+}
+
+.form-control2 {
+	margin-bottom: 1rem;
+}
+
+.form-control2 input,
+.form-control2 label {
+	display: block;
+}
+
+.form-control2 label {
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+}
+
+.form-control2 input,
+.form-control2 select {
+	font: inherit;
+	padding: 0.5rem;
+	margin-left: 1rem;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	width: 5rem;
+	max-width: 100%;
+}
+
+/* .form-control2 input:focus {
+	outline: none;
+	border-color: #240370;
+	background-color: #e0d4fd;
+} */
+
+.control-group2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+/* .control-group2 .form-control2 {
+	min-width: 15rem;
+	flex: 1;
+} */
